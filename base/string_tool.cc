@@ -4,7 +4,7 @@
 #include <cstdlib>  // strtol strtod
 #include "string_tool.h"
 
-namespace jc {
+namespace compass {
 namespace base{
 
     // 1.https://stackoverflow.com/questions/194465/how-to-parse-a-string-to-an-int-in-c

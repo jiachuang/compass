@@ -1,1 +1,1 @@
-jc is C++ network library.
+compass is C++ network library.

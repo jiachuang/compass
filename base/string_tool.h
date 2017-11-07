@@ -1,7 +1,7 @@
-#ifndef JC_BASE_STRING_TOOL_H_
-#define JC_BASE_STRING_TOOL_H_
+#ifndef COMPASS_BASE_STRING_TOOL_H_
+#define COMPASS_BASE_STRING_TOOL_H_
 
-namespace jc {
+namespace compass {
 namespace base {
    
 class StringTool
@@ -13,4 +13,4 @@ class StringTool
 }
 }
 
-#endif // JC_BASE_STRING_TOOL_H_
+#endif // COMPASS_BASE_STRING_TOOL_H_
