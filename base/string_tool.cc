@@ -11,11 +11,11 @@ namespace base{
     // 2.https://github.com/syuu1228/openbsd-src/blob/master/lib/libc/stdlib/strtonum.c
     // 3.http://www.kumobius.com/2013/08/c-string-to-int/
 
-	const int kInconvertible = 1;
+    const int kInconvertible = 1;
     const int kTooSmall      = 2;
     const int kTooLarge      = 3;
 
-    int StringTool::String2Int(char const *intStr, char const **errStr)
+    int StringTool::StringToInt(char const *intStr, char const **errStr)
     {
         long l = 0;
         char* pEnd;
@@ -55,7 +55,7 @@ namespace base{
         return (static_cast<int>(l));
     }
 
-    double StringTool::String2Double(char const *doubleStr, const char** errStr)
+    double StringTool::StringToDouble(char const *doubleStr, const char** errStr)
     {
         double d = 0.0;
         char* pEnd;

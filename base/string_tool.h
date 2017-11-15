@@ -6,8 +6,9 @@ namespace base {
    
 class StringTool
 {
-    static int String2Int(char const *intStr, char const **errStr);
-    static double String2Double(char const *doubleStr, char const **errStr);
+public:
+    static int StringToInt(char const *intStr, char const **errStr);
+    static double StringToDouble(char const *doubleStr, char const **errStr);
 };
 
 }
