@@ -3,7 +3,7 @@ include(gtest.cmake)
 enable_testing()
 set(PROJECT_TEST_NAME ${PROJECT_NAME}_test)
 include_directories(${GTEST_INCLUDE_DIRS})
-include_directories(${PROJECT_SOURCE_DIR})
+include_directories(${PROJECT_SOURCE_DIR}/compass)
 
 file(GLOB_RECURSE TEST_SRC_FILES RELATIVE ${PROJECT_SOURCE_DIR}/test *.cc)
 message(STATUS "the TEST_SRC_FILES: " "${TEST_SRC_FILES}")
